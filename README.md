@@ -1,4 +1,6 @@
 # Prova Finale Ingegneria del Software 2020-2021
+[![License: MIT][license-image]][license]
+
 This is the project for the *Prova Finale* of the course _Ingegneria del Sofware_ held at Politecnico di Milano under the supervision of Prof. Alessandro Margara. It consists in developing a multiplayer online table game, both client and server side (CLI and GUI interfaces), using the object-oriented programming paradigm and its common design patterns.
 
 # Authors
@@ -78,3 +80,5 @@ Full game rules can be consulted [here](https://craniointernational.com/products
  
  This project is developed in collaboration with [Politecnico di Milano](https://www.polimi.it) and [Cranio Creations](http://www.craniocreations.it).
  
+ [license]: https://github.com/MarcoBendinelli/Software-Engineering-project-2021/blob/master/LICENSE
+[license-image]: https://img.shields.io/badge/License-MIT-blue.svg
