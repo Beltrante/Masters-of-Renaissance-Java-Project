@@ -52,19 +52,47 @@ Another important feature is that **disconnected** **players** can reconnect lat
 | Multiple Games | ❌ |
 | Parameters Editor | ❌ |
 
+## CLI Screens
+
+<p align="center">
+  <img width="750" src="deliverables/utils/cli_1.png" alt="cli_1">
+</p>
+
+<p align="center">
+  <img width="750" src="deliverables/utils/cli_2.png" alt="cli_2">
+</p>
+
+<p align="center">
+  <img width="750" src="deliverables/utils/cli_3.png" alt="cli_3">
+</p>
+
+## GUI Screens
+
+<p align="center">
+  <img width="750" src="deliverables/utils/gui_1.png" alt="gui_1">
+</p>
+
+<p align="center">
+  <img width="750" src="deliverables/utils/gui_2.png" alt="gui_2">
+</p>
+
+<p align="center">
+  <img width="750" src="deliverables/utils/gui_3.png" alt="gui_3">
+</p>
+
 ## Setup
 
 - The jar file allows to start the application as both Server or Client.
 - To run it as Server type the following command (as default it runs on port 1337):
     ```shell
-    > java -jar AM65.jar -server
+    > java -jar Masters_of_Renaissance_MAM.jar -server
     ```
   This command can be followed by a desired port that server will be listening on.
 
   
 - To run it as Client type the following command:
     ```shell
-    > java -jar AM65.jar
+    > java -jar Masters_of_Renaissance_MAM.jar
     ```
     This command **MUST** be followed by one of these arguments:
   - **-cli**: to start the Command Line Interface (NOTE: Windows users must run it using WSL);
@@ -83,7 +111,7 @@ Another important feature is that **disconnected** **players** can reconnect lat
  To facilitate the demo of the game, a cheat functionality has been implemented. It simply adds some Resources into the StrongBox.
 
 <details>
-  <summary>SPOILER ALERT: click here to see the command to insert in the Server terminal</summary>
+  <summary>Click here to see the command to insert in the Server terminal</summary>
      
     > cheat
      
