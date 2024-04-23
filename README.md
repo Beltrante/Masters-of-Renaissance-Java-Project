@@ -28,7 +28,7 @@ The official Game offered by *Cranio* can be found here [here](https://craniocre
 
 The project involves developing a software version of the board game _Masters of Renaissance_ in Java, following a **Software Engineering** approach. This includes creating initial high-level _UML_ diagrams of the application and final UML diagrams showing the software design.
 
-The game rules are described in the "maestri-rules.pdf", covering games with 1 to 4 players, including solo play without connecting to the server. Each player is identified by a nickname set on the client side, which must be unique in each game. The server ensures the uniqueness of nicknames during player acceptance.
+The game rules are described in the [rules](deliverables/utils/rules.pdf) file, covering games with 1 to 4 players, including solo play without connecting to the server. Each player is identified by a nickname set on the client side, which must be unique in each game. The server ensures the uniqueness of nicknames during player acceptance.
 
 The project implements a distributed system consisting of a single server capable of managing one game at a time and multiple clients (one per player) who can participate in only one game at a time. The entire system is designed using the **MVC** (Model-View-Controller) pattern.
 
