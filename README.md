@@ -22,7 +22,7 @@ Take resources from the market to purchase new cards, expand your influence in t
 
 Each card grants production power to transform resources, allowing you to strategically manage your strongbox. With interesting decisions and a straightforward ruleset, you'll lead your noble family through the Renaissance, earning prestige and honor. The player with the most prestige at the end wins the game.
 
-Full game rules can be consulted [here](https://craniocreations.it/en/product/master-of-renaissance)
+The official Game offered by *Cranio* can be found here [here](https://craniocreations.it/en/product/master-of-renaissance) and the full game rules can be consulted [here](deliverables/utils/rules.pdf)
 
 ## Functionalities
 
