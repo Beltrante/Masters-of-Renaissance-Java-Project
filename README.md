@@ -83,7 +83,7 @@ Another important feature is that **disconnected** **players** can reconnect lat
  To facilitate the demo of the game, a cheat functionality has been implemented. It simply adds some Resources into the StrongBox.
 
 <details>
-  <summary>SPOILER ALERT: To use it, click here to see the command to be inserted in the Server terminal</summary>
+  <summary>SPOILER ALERT: click here to see the command to insert in the Server terminal</summary>
      
     > cheat
      
