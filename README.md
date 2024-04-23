@@ -54,7 +54,7 @@ Another important feature is that **disconnected** **players** can reconnect lat
 
 ## Setup
 
-- In the [deliverables](deliverables) there is the jar file to start the application as both Server or Client.
+- The jar file allows to start the application as both Server or Client.
 - To run it as Server type the following command (as default it runs on port 1337):
     ```shell
     > java -jar AM65.jar -server
