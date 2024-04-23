@@ -55,29 +55,29 @@ Another important feature is that **disconnected** **players** can reconnect lat
 ## CLI Screens
 
 <p align="center">
-  <img width="750" src="deliverables/utils/cli_1.png" alt="cli_1">
+  <img width="700" src="deliverables/utils/cli_1.png" alt="cli_1">
 </p>
 
 <p align="center">
-  <img width="750" src="deliverables/utils/cli_2.png" alt="cli_2">
+  <img width="650" src="deliverables/utils/cli_2.png" alt="cli_2">
 </p>
 
 <p align="center">
-  <img width="750" src="deliverables/utils/cli_3.png" alt="cli_3">
+  <img src="deliverables/utils/cli_3.png" alt="cli_3">
 </p>
 
 ## GUI Screens
 
 <p align="center">
-  <img width="750" src="deliverables/utils/gui_1.png" alt="gui_1">
+  <img width="600" src="deliverables/utils/gui_1.png" alt="gui_1">
 </p>
 
 <p align="center">
-  <img width="750" src="deliverables/utils/gui_2.png" alt="gui_2">
+  <img src="deliverables/utils/gui_2.png" alt="gui_2">
 </p>
 
 <p align="center">
-  <img width="750" src="deliverables/utils/gui_3.png" alt="gui_3">
+  <img src="deliverables/utils/gui_3.png" alt="gui_3">
 </p>
 
 ## Setup
