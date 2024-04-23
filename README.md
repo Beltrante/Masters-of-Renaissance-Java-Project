@@ -1,15 +1,40 @@
-# Prova Finale Ingegneria del Software 2020-2021
-[![License: MIT][license-image]][license]
+# Masters of Renaissance :flower_playing_cards: :game_die:
 
-This is the project for the *Prova Finale* of the course _Ingegneria del Sofware_ held at Politecnico di Milano under the supervision of Prof. Alessandro Margara. It consists in developing a multiplayer online table game, both client and server side (CLI and GUI interfaces), using the object-oriented programming paradigm and its common design patterns.
+<div align="center">
 
-# Authors
+<img src="deliverables/utils/logo.png?raw=true" alt="Masters of Renaissance" width="500">
 
-- ###  Andrea Bosisio ([@andreabosisio](https://github.com/andreabosisio))<br>andrea2.bosisio@mail.polimi.it
-- ###  Matteo Beltrante ([@Beltrante](https://github.com/Beltrante))<br>matteo.beltrante@mail.polimi.it
-- ###  Marco Bendinelli ([@MarcoBendinelli](https://github.com/MarcoBendinelli))<br>marco.bendinelli@mail.polimi.it
+**Java** implementation of the board game *Masters of Renaissance*
 
-# Implemented Functionalities
+</div>
+
+## Authors
+
+- **Marco Bendinelli** ([@MarcoBendinelli](https://github.com/MarcoBendinelli))
+- **Andrea Bosisio** ([@andreabosisio](https://github.com/andreabosisio))
+- **Matteo Beltrante** ([@Beltrante](https://github.com/Beltrante))
+
+## The Game
+
+In Masters of Renaissance, you step into the shoes of a prominent citizen of Florence, striving to increase your fame and prestige.
+
+Take resources from the market to purchase new cards, expand your influence in the city and surrounding territories, and demonstrate your devotion to the Pope for added benefits.
+
+Each card grants production power to transform resources, allowing you to strategically manage your strongbox. With interesting decisions and a straightforward ruleset, you'll lead your noble family through the Renaissance, earning prestige and honor. The player with the most prestige at the end wins the game.
+
+Full game rules can be consulted [here](https://craniocreations.it/en/product/master-of-renaissance)
+
+## Functionalities
+
+The project involves developing a software version of the board game _Masters of Renaissance_ in Java, following a **Software Engineering** approach. This includes creating initial high-level _UML_ diagrams of the application and final UML diagrams showing the software design.
+
+The game rules are described in the "maestri-rules.pdf", covering games with 1 to 4 players, including solo play without connecting to the server. Each player is identified by a nickname set on the client side, which must be unique in each game. The server ensures the uniqueness of nicknames during player acceptance.
+
+The project implements a distributed system consisting of a single server capable of managing one game at a time and multiple clients (one per player) who can participate in only one game at a time. The entire system is designed using the **MVC** (Model-View-Controller) pattern.
+
+The software is capable of **persistence**; the state of a game is saved to disk so that the game can resume even after the server execution is interrupted. Players must reconnect to the server using the same nicknames once it is back online to resume a game. It is assumed that the server does not interrupt its execution during disk saving, and that the disk provides entirely reliable memory.
+
+Another important feature is that **disconnected** **players** can reconnect later and continue the game. While a player is not connected, the game continues by skipping that player's turns.
 
 | Functionality | State |
 |:-----------------------|:------------------------------------:|
@@ -26,10 +51,6 @@ This is the project for the *Prova Finale* of the course _Ingegneria del Sofware
 | Local Game | ✅ |
 | Multiple Games | ❌ |
 | Parameters Editor | ❌ |
-
-# Masters of Renaissance
-![](deliverables/utils/gameLogo.jpeg)
-Full game rules can be consulted [here](https://craniointernational.com/products/masters-of-renaissance/).
 
 ## Setup
 
